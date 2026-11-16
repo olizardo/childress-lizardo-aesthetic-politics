@@ -7,36 +7,10 @@
 *.gsheet
 /.quarto/
 **/*.quarto_ipynb
-analysis_files/
 data.rds
-.quarto/
-
-# Local-only project material (never published)
-AGENTS.md
-Peer_Review_Thematic_Synthesis.md
-Peer Review/
-.posit/
-Slides/
-Tabs/
-analysis_cache/
-analysis_files/
 __pycache__/
-list_docx.py
-search_hypotheses.py
 
-# Google Drive manuscript synchronization scripts (local-only)
-Scripts/build_methodological_revision.py
-Scripts/sync_manuscript.R
-Scripts/sync_manuscript.py
-Scripts/sync_response_memo.R
-Scripts/update_manuscript_text.py
-Scripts/generate_tracked_changes.py
-draft_*.docx
-draft_*.txt
-draft_updated.docx
-draft_live.docx
+# Local-only project material (not part of the public package); see .git/info/exclude
 
-# Full raw survey files (private); only the slim extract is published
-dat/cultdat.dta
-dat/genresobjects.dta
-docs/
+# Draft working files from the manuscript sync pipeline
+draft_*
